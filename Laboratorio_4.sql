@@ -33,3 +33,14 @@ CREATE TABLE Usuarios (
     Direccion VARCHAR (100),
     Telefono VARCHAR (20)
     );
+
+USE Biblioteca;
+CREATE TABLE Prestamos (
+  ID_Prestamo INT PRIMARY KEY AUTO_INCREMENT,
+    ID_Usuario INT,
+    ID_Libro INT,
+    Fecha_Prestamo DATE,
+    Fecha_Devolucion DATE,
+    FOREIGN KEY (ID_Usuario) REFERENCES usuarios (ID_Usuario),
+    FOREIGN KEY (ID_Libro) REFERENCES libros (ID_libro)
+    );
