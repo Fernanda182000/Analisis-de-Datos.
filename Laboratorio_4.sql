@@ -82,3 +82,8 @@ CREATE TABLE prestamos_usuarios (
     FOREIGN KEY (ID_Prestamo) REFERENCES prestamos (ID_Prestamo),
     FOREIGN KEY (ID_Usuario) REFERENCES usuarios (ID_Usuario)   
     );
+
+USE Biblioteca;
+UPDATE prestamos
+SET Fecha_Devolucion = ' 2024-11-12'
+WHERE ID_Prestamo = 1; 
