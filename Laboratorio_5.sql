@@ -14,3 +14,13 @@ CREATE TABLE Cargo (
     Nombre_cargo VARCHAR (50) NOT NULL,
     Salario DECIMAL (10, 2)
     );
+
+USE empresa;
+INSERT INTO empleados (nombre, cargo, salario) VALUES ('Juan Pérez', 'Gerente', '7500000');
+INSERT INTO empleados (nombre, cargo, salario) VALUES ('Ana Gómez', 'Desarrollador', '6000000');
+INSERT INTO empleados (nombre, cargo, salario) VALUES ('Luis Castro', 'Proyectos', '10000000');
+
+USE empresa;
+INSERT INTO cargo (nombre_cargo, salario) VALUES ('Gerente', '500000');
+INSERT INTO cargo (nombre_cargo, salario) VALUES ('Asistente', '250000');
+INSERT INTO cargo (nombre_cargo, salario) VALUES ('Desarrollador','400000');
