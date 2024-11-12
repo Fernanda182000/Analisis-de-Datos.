@@ -43,3 +43,7 @@ DELETE FROM empleados WHERE Nombre = 'Luis Castro';
 
 USE empresa;
 SELECT * FROM empleados WHERE cargo = 'Desarrollador';
+
+USE empresa;
+INSERT INTO empleados (nombre, cargo, salario) 
+VALUES ('Marta López','Asistente', '3000000');
