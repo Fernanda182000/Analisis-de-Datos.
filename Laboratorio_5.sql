@@ -40,3 +40,6 @@ WHERE Nombre = 'Ana Gómez';
 
 USE empresa;
 DELETE FROM empleados WHERE Nombre = 'Luis Castro';
+
+USE empresa;
+SELECT * FROM empleados WHERE cargo = 'Desarrollador';
