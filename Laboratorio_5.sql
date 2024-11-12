@@ -65,3 +65,7 @@ WHERE Titulo = 'La  era de 1984';
 
 SELECT * FROM `libros`;
 SELECT * FROM autores
+
+USE Biblioteca;
+SELECT * FROM libros
+WHERE ID_Autor = 1; 
