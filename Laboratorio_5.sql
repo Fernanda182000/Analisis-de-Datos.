@@ -69,3 +69,7 @@ SELECT * FROM autores
 USE Biblioteca;
 SELECT * FROM libros
 WHERE ID_Autor = 1; 
+
+USE Biblioteca;
+SELECT * FROM prestamos
+WHERE MONTH (Fecha_Devolucion) = 8 AND YEAR (Fecha_Devolucion)= 2024;
