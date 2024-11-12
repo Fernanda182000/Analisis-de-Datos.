@@ -62,3 +62,5 @@ WHERE ID_Prestamo = 1;
 USE Biblioteca;
 DELETE FROM libros
 WHERE Titulo = 'La  era de 1984';
+
+SELECT * FROM `libros`;
