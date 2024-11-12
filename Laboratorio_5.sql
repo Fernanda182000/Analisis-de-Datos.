@@ -26,3 +26,6 @@ INSERT INTO cargo (nombre_cargo, salario) VALUES ('Asistente', '250000');
 INSERT INTO cargo (nombre_cargo, salario) VALUES ('Desarrollador','400000');
 
 SELECT * FROM `empleados`;
+
+USE empresa;
+SELECT * FROM cargo;
