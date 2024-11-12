@@ -83,11 +83,3 @@ CREATE TABLE prestamos_usuarios (
     FOREIGN KEY (ID_Usuario) REFERENCES usuarios (ID_Usuario)   
     );
 
-USE Biblioteca;
-UPDATE prestamos
-SET Fecha_Devolucion = ' 2024-11-12'
-WHERE ID_Prestamo = 1; 
-
-USE Biblioteca;
-DELETE FROM libros
-WHERE Titulo = 'La  era de 1984';
