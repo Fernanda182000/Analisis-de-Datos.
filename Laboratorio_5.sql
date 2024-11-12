@@ -32,3 +32,8 @@ SELECT * FROM cargo;
 
 USE empresa;
 SELECT * FROM empleados WHERE Salario > 7000000; 
+
+USE empresa;
+UPDATE empleados
+SET Salario = 6500000
+WHERE Nombre = 'Ana Gómez';
