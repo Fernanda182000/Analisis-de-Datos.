@@ -47,3 +47,9 @@ SELECT * FROM empleados WHERE cargo = 'Desarrollador';
 USE empresa;
 INSERT INTO empleados (nombre, cargo, salario) 
 VALUES ('Marta López','Asistente', '3000000');
+
+
+USE Biblioteca;
+UPDATE libros
+SET Disponible = FALSE
+WHERE ID_Libro = 1; 
