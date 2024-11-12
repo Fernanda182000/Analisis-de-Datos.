@@ -29,3 +29,6 @@ SELECT * FROM `empleados`;
 
 USE empresa;
 SELECT * FROM cargo;
+
+USE empresa;
+SELECT * FROM empleados WHERE Salario > 7000000; 
